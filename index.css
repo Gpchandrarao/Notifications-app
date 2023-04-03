@@ -1,0 +1,103 @@
+/* Write your code here. */
+* {
+  box-sizing: 0px;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto";
+}
+
+.notification-bg-container {
+  background-color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.notification-heading {
+  font-size: 25px;
+  color: #0f172a;
+}
+
+.notification-list-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.primary-bg-color {
+  background-color: #0b69ff;
+  height: 50px;
+  width: 200px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.iconUrl {
+  height: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.message {
+  color: #fff;
+  font-size: 10px;
+}
+
+.secondary-bg-color {
+  background-color: #2dca73;
+  height: 50px;
+  width: 200px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.warning-bg-color {
+  background-color: #ffb800;
+  height: 50px;
+  width: 200px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.error-bg-color {
+  background-color: #ff0b37;
+  height: 50px;
+  width: 200px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+@media screen and (min-width: 786px) {
+  .notification-heading {
+    font-size: 35px;
+  }
+
+  .iconUrl {
+    height: 30px;
+  }
+  .message {
+    font-size: 20px;
+    font-weight: 800;
+  }
+  .primary-bg-color {
+    width: 400px;
+  }
+  .secondary-bg-color {
+    width: 400px;
+  }
+  .warning-bg-color {
+    width: 400px;
+  }
+  .error-bg-color {
+    width: 400px;
+  }
+}
